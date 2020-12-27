@@ -1,0 +1,173 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+p {
+    text-align: center;
+    color: red;
+} 
+
+.psu{ /*<p> size for sign up and sign in*/
+	color:yellow;
+	font-size: 30px;
+}
+.psi{
+	color: yellow;
+	font-size: 20px;
+}
+
+
+body{
+	margin: 0;
+    padding: 0;
+	background-size: cover;
+	background-position: center;
+}
+
+.button {
+    background-color: cyan;
+    border: none;
+    color: white;
+    padding: 30px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.about{background-color: yellow;} 
+.about:hover {background: MediumSeaGreen;}
+
+.buttonSign
+{
+	
+	margin-top: 40px;
+	margin-left:10px;
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.btn-one
+{
+	background-color: darkorange;
+	font-family: "Roboto", sans-serif;
+	
+}
+
+.btn-two
+{
+	background-color: Green;
+	font-family: "Roboto", sans-serif;
+}
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("head2.jpg");
+	background-size: cover;
+	background-position: center;
+	height : 100vh;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.header1 {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("head2.jpg");
+	background-size: cover;
+	background-position: center;
+	height : 50vh;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.headerlogin {
+	background-color: darkgray;
+	background-size: cover;
+	background-position: center;
+	height : 10vh;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+
+}
+.main-nav li{
+	display: inline-block;
+}
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+
+}
+.main-nav li.active a{
+	border: 1px solid white;
+}
+.main-nav li a:hover{
+	border: 1px solid white;
+}
+
+.logo img{
+	width: 300px;
+	height: auto;
+	float: left;
+}
+
+h2{
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: blue;
+}
+.row{
+		margin: auto;
+		max-width: 1200px;
+}
+
+.welcome
+{
+	position: absolute;
+	margin-left: 0;
+	margin-top: 0;
+	width: 1200px;
+}
+
+.h4wc{ /*this is for "welcome here" text on home page*/
+	margin-top: 150px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+
+
+

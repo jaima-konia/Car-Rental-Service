@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <link href = "about.css" rel = "stylesheet" type = "text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+</style>
+  
+</head>
+<body>
+<header>
+	<marquee direction ="right">
+	<h1 style="color:blue;">CarRental.com</h1>
+	</marquee>
+	
+
+	<div class = "row">
+		<div class = "logo">
+		<img src = "logo.jpg">
+		</div>
+	<ul class ="main-nav">
+		<li><a href = "home.html">Home</a></li>
+		<li> <a href = "cars.html">Cars </a></li>
+		<li> <a href = "service.html">Services </a></li>
+		<li class  = "active"> <a href = "">About us </a></li>
+		<li> <a href = "contact.html">Contact</a></li>
+		<li> <a href = "contact.html">FAQ</a></li>
+	</ul>
+
+</div>
+</header>
+
+<div class="row" style = "background-color:#bbb;float:center;line-height:30px;padding:4px;">
+  <div class="column" style="background-color:#bbb;padding:4px;border:2px solid white">
+    <h1 style ="text-align:center">OUR MISSION</h1>
+	
+    <p class = "p1">To provide safe and reliable car rental services 
+	to our esteemed customers at the highest levels of safety,
+	quality and customer service.</p>
+  </div>
+  <div class="column" style="background-color:#bbb;padding:4px;border:2px solid white">
+	<h1 style ="text-align:center">OUR VISION</h1>
+    <p class = "p1">To become the number one choice of domestic and foreign travellers.<br><br></p>
+  </div>
+</div>
+
+<div class="row" style = "float:center;line-height:30px;padding:4px;background-color:#bbb;">
+    <h1 style ="text-align:center">OUR COMMITMENT</h1>
+    <p class = "p1">We are committed to provide the best transport service with highest safety measures and comfort to each passenger.</p>
+</div>
+
+</body>
+</html>

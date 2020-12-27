@@ -1,0 +1,104 @@
+
+body{
+	margin: 0;
+    padding: 0;
+	background-size: cover;
+	background-position: center;
+}
+
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("head2.jpg");
+	background-size: cover;
+	background-position: center;
+	height : 50vh;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.row{
+		margin: auto;
+		max-width: 1200px;
+}
+ol, ul {
+  margin: 20px;
+  padding: 5px;
+  /*list-style: none;*/
+}
+
+img {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo img{
+	width: 300px;
+	height: auto;
+	float: left;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+
+}
+.main-nav li{
+	display: inline-block;
+}
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+
+}
+.main-nav li.active a{
+	border: 1px solid white;
+}
+.main-nav li a:hover{
+	border: 1px solid white;
+}
+
+.marq
+{
+	position: absolute;
+	margin-left: 0;
+	margin-top: 0;
+	width: 1200px;
+}
+
+.h6marq{ 
+	margin-top: 150px;
+	text-align: center;
+	font-size: 50px;
+	color: yellow;
+}
+.hq{ 
+	font-size: 30px;
+	color: blue;
+	margin-left:5px;
+}
+.hAns1{
+	margin-left:10px;
+	font-size: 25px;
+	color: black;
+	font-family:"Times New Roman", sans-serif;
+}
+
+.hAns2{
+	margin-left:15px;
+	font-size: 18px;
+	color: black;
+	font-family:"Roboto", sans-serif;
+}
+.hAns3{
+	margin-left:10px;
+	font-size: 15px;
+	color: red;
+	font-family:"Arial", sans-serif;
+}
+
+

@@ -1,0 +1,48 @@
+.button {
+    background-color: cyan;
+    border: none;
+    color: white;
+    padding: 30px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	
+	
+}
+
+.btn {
+    background-color: yellow;
+    border: none;
+    color: white;
+    padding: 20px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+	
+}
+
+.btn:hover{
+	background: white;
+}
+.about{background-color: yellow;} /* Red */ 
+.about:hover {background: MediumSeaGreen;}
+
+header {
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.col-sm-4
+{
+	padding: 20px 62px;
+	width:350px;
+	height:450px;
+}
